@@ -1,0 +1,10 @@
+# Defaults for mtail initscript
+# sourced by /etc/init.d/mtail
+# installed at /etc/default/mtail by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS="-progs /etc/mtail -logs /var/log/mail.log"
