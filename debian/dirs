@@ -1,2 +1,3 @@
 etc/mtail
 var/lib/mtail
+var/log/mtail
