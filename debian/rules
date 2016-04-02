@@ -10,7 +10,7 @@ override_dh_auto_build:
 	make install_deps
 
 override_dh_auto_install:
-	GOBIN=debian/tmp/usr/sbin make
+	GOBIN=$$PWD/debian/tmp/usr/sbin make
 	dh_install --autodest
 
 override_dh_auto_test:
